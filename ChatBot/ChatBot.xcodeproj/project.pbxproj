@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -238,7 +238,7 @@
 				};
 			};
 			buildConfigurationList = 9AB44AAC1E00470A00267517 /* Build configuration list for PBXProject "ChatBot" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -589,6 +589,7 @@
 				9AB44ADB1E00470A00267517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB44ADC1E00470A00267517 /* Build configuration list for PBXNativeTarget "ChatBotTests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +598,7 @@
 				9AB44ADE1E00470A00267517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB44ADF1E00470A00267517 /* Build configuration list for PBXNativeTarget "ChatBotUITests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +607,7 @@
 				9AB44AE11E00470A00267517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

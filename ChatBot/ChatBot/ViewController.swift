@@ -8,6 +8,11 @@
 
 import UIKit
 
+
+import SocketIO
+
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -19,7 +24,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
 
