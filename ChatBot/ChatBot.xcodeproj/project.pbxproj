@@ -15,6 +15,10 @@
 		9AB44ABF1E00470A00267517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB44ABD1E00470A00267517 /* LaunchScreen.storyboard */; };
 		9AB44ACA1E00470A00267517 /* ChatBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB44AC91E00470A00267517 /* ChatBotTests.swift */; };
 		9AB44AD51E00470A00267517 /* ChatBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB44AD41E00470A00267517 /* ChatBotUITests.swift */; };
+		E7ACACED1E01E73700919E08 /* ChatResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ACACEC1E01E73700919E08 /* ChatResponseModel.swift */; };
+		E7ACACF11E01F34100919E08 /* OptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ACACF01E01F34100919E08 /* OptionsModel.swift */; };
+		E7ACACF31E01F3B800919E08 /* ValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ACACF21E01F3B800919E08 /* ValueModel.swift */; };
+		E7ACACF51E01FEC000919E08 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ACACF41E01FEC000919E08 /* SocketIOManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		9AB44AD61E00470A00267517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A076A0E81405BE43532EA333 /* Pods_ChatBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A257C188F9166A8E5DCBE0 /* Pods-ChatBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatBot/Pods-ChatBot.debug.xcconfig"; sourceTree = "<group>"; };
+		E7ACACEC1E01E73700919E08 /* ChatResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatResponseModel.swift; sourceTree = "<group>"; };
+		E7ACACF01E01F34100919E08 /* OptionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsModel.swift; sourceTree = "<group>"; };
+		E7ACACF21E01F3B800919E08 /* ValueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueModel.swift; sourceTree = "<group>"; };
+		E7ACACF41E01FEC000919E08 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,7 @@
 		9AB44AA81E00470A00267517 = {
 			isa = PBXGroup;
 			children = (
+				E7ACACEB1E01E6A100919E08 /* Models */,
 				9AB44AB31E00470A00267517 /* ChatBot */,
 				9AB44AC81E00470A00267517 /* ChatBotTests */,
 				9AB44AD31E00470A00267517 /* ChatBotUITests */,
@@ -119,6 +128,7 @@
 				9AB44ABB1E00470A00267517 /* Assets.xcassets */,
 				9AB44ABD1E00470A00267517 /* LaunchScreen.storyboard */,
 				9AB44AC01E00470A00267517 /* Info.plist */,
+				E7ACACF41E01FEC000919E08 /* SocketIOManager.swift */,
 			);
 			path = ChatBot;
 			sourceTree = "<group>";
@@ -139,6 +149,17 @@
 				9AB44AD61E00470A00267517 /* Info.plist */,
 			);
 			path = ChatBotUITests;
+			sourceTree = "<group>";
+		};
+		E7ACACEB1E01E6A100919E08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7ACACEC1E01E73700919E08 /* ChatResponseModel.swift */,
+				E7ACACF01E01F34100919E08 /* OptionsModel.swift */,
+				E7ACACF21E01F3B800919E08 /* ValueModel.swift */,
+			);
+			name = Models;
+			path = ChatBot/Models;
 			sourceTree = "<group>";
 		};
 		F533F4824409BA9B80143C75 /* Frameworks */ = {
@@ -337,8 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7ACACED1E01E73700919E08 /* ChatResponseModel.swift in Sources */,
 				9AB44AB71E00470A00267517 /* ViewController.swift in Sources */,
+				E7ACACF11E01F34100919E08 /* OptionsModel.swift in Sources */,
 				9AB44AB51E00470A00267517 /* AppDelegate.swift in Sources */,
+				E7ACACF51E01FEC000919E08 /* SocketIOManager.swift in Sources */,
+				E7ACACF31E01F3B800919E08 /* ValueModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
