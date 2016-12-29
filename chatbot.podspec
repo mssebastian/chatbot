@@ -28,7 +28,7 @@ s.homepage = "https://github.com/mssebastian/chatbot"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/mssebastian/chatbot.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/mssebastian/chatbot.git", :tag => s.version }
 
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
@@ -36,15 +36,10 @@ s.source = { :git => "https://github.com/mssebastian/chatbot.git", :tag => "#{s.
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 4.0'
-s.dependency 'ObjectMapper'
-s.dependency 'AlamofireObjectMapper', '~> 4.0'
-s.dependency 'NVActivityIndicatorView'
-s.dependency 'SnapKit', '~> 3.0'
 s.dependency 'Socket.IO-Client-Swift', '~> 8.1.2'
 
 # 8
-s.source_files = "ChatBot/**/*.{swift}"
+s.source_files = "ChatBot/**/*.swift"
 
 # 9
 s.resources = "ChatBot/**/*.{png,jpeg,jpg,storyboard,xib}"
